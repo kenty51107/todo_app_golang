@@ -1276,3 +1276,19 @@ net/http.(*conn).serve(0xc0000a2900, {0x100581c68, 0xc0001090e0})
 	/usr/local/go/src/net/http/server.go:1995 +0x612
 created by net/http.(*Server).Serve
 	/usr/local/go/src/net/http/server.go:3089 +0x5ed
+2023/03/02 17:56:44 users.go:107: near "value": syntax error
+2023/03/02 19:40:14 users.go:107: near "value": syntax error
+2023/03/02 19:46:11 users.go:107: near "value": syntax error
+2023/03/02 19:46:11 main.go:20: no such table: sessions
+2023/03/02 19:48:18 users.go:107: near "value": syntax error
+2023/03/02 19:48:18 main.go:20: no such column: user_id
+2023/03/02 20:34:31 users.go:107: near "value": syntax error
+2023/03/02 20:34:31 main.go:20: no such column: user_id
+2023/03/02 20:36:37 users.go:107: near "value": syntax error
+2023/03/02 20:36:37 main.go:20: no such column: user_id
+2023/03/02 20:40:43 users.go:107: table sessions has no column named user_id
+2023/03/02 20:40:43 main.go:20: no such column: user_id
+2023/03/02 20:42:46 users.go:107: table sessions has no column named user_id
+2023/03/02 20:42:46 main.go:20: no such column: user_id
+2023/03/02 20:51:30 users.go:107: table sessions has no column named user_id
+2023/03/02 20:51:30 main.go:20: no such column: user_id
